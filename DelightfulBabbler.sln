@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelightfulBabbler", "DelightfulBabbler\DelightfulBabbler.csproj", "{02C3F324-86AC-481B-9BD5-C571BAD46AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelightfulBabblerTests", "DelightfulBabblerTests\DelightfulBabblerTests.csproj", "{2FD78AB8-4273-4D78-BCBA-F7822C105A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C3F324-86AC-481B-9BD5-C571BAD46AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C3F324-86AC-481B-9BD5-C571BAD46AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C3F324-86AC-481B-9BD5-C571BAD46AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C3F324-86AC-481B-9BD5-C571BAD46AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD78AB8-4273-4D78-BCBA-F7822C105A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD78AB8-4273-4D78-BCBA-F7822C105A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD78AB8-4273-4D78-BCBA-F7822C105A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD78AB8-4273-4D78-BCBA-F7822C105A38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF502528-1FDA-46C8-B724-6D6CCB0F0B2C}
+	EndGlobalSection
+EndGlobal
