@@ -10,6 +10,7 @@
     <Description>Produces delightful random word combinations</Description>
     <PackageIcon>babbler.png</PackageIcon>
     <Copyright />
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
