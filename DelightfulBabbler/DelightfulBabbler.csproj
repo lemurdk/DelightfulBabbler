@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ApplicationIcon>babbler.ico</ApplicationIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Emil Rossing</Authors>
-    <Company>Lemur</Company>
+    <Company>Sapiens Solutions</Company>
     <Product>Delightful Babbler</Product>
     <Description>Produces delightful random word combinations</Description>
     <PackageIcon>babbler.png</PackageIcon>
     <Copyright />
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>2.0.0</Version>
+    <Version>3.0.0</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lemurdk/DelightfulBabbler</RepositoryUrl>
