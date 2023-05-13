@@ -12,4 +12,3 @@ var an_string = Babble.Random();
 ```
 
 From Barcelona with :heart:
-
