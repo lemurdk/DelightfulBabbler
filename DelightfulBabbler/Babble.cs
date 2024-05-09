@@ -6,8 +6,8 @@ public static class Babble {
     private static Lazy<string[]> _adjectives = new Lazy<string[]>(() => @"adaptable|adventurous|affable|affectionate|agreeable|ambitious|amiable|amicable|amusing|brave|bright|broad-minded|calm|careful|charming|communicative|compassionate|conscientious|considerate|convivial|courageous|courteous|creative|decisive|determined|diligent|diplomatic|discreet|dynamic|easygoing|emotional|energetic|enthusiastic|exuberant|fair-minded|faithful|fearless|forceful|frank|friendly|funny|generous|gentle|good|gregarious|hard-working|helpful|honest|humorous|imaginative|impartial|independent|intellectual|intelligent|intuitive|inventive|kind|loving|loyal|modest|neat|nice|optimistic|passionate|patient|persistent|pioneering|philosophical|placid|plucky|polite|powerful|practical|pro-active|quick-witted|quiet|rational|reliable|reserved|resourceful|romantic|self-confident|self-disciplined|sensible|sensitive|shy|sincere|sociable|straightforward|sympathetic|thoughtful|tidy|tough|unassuming|understanding|versatile|warmhearted|willing|witty|".Split('|'));
     
     public static string Random() {
-        var animal = _animals.Value[Random.Shared.Next(_animals.Value.Length)];
-        var adjective = _adjectives.Value[Random.Shared.Next(_adjectives.Value.Length)];
+        var animal = _animals.Value[System.Random.Shared.Next(_animals.Value.Length)];
+        var adjective = _adjectives.Value[System.Random.Shared.Next(_adjectives.Value.Length)];
         return $"{adjective}-{animal}";
     }  
 }
