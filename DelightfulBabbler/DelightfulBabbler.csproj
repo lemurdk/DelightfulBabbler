@@ -16,6 +16,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lemurdk/DelightfulBabbler</RepositoryUrl>
     <PackageTags>random, randomizer, babbler, babblinator, delightful</PackageTags>
+    <Title>Delightful Babbler</Title>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

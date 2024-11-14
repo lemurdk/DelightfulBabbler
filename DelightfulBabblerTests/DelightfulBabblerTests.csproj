@@ -4,6 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Copyright>2024</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
